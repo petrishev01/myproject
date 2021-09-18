@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#my_header {
+    width: auto;
+    height: 171px;
+    background-image: url(images/Шапка.jpg);
+}
+#element_id {
+    float: left;
+    margin-left: 220px;
+}
+#my_footer {
+    width: auto;
+    height: 85px;
+    background-color: antiquewhite;
+}
+.even {
+    background-color: blue;
+}
+.not_even {
+    background-color: yellow;
+}
+table {
+    border: 1px solid grey;
+}
+th {
+    border: 1px solid grey;
+}
+td {
+    border: 1px solid grey;
+}
+table {
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.content {
+    width: 960px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
