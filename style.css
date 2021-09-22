@@ -1,15 +1,23 @@
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
 html, body{
     margin: 0;
     padding: 0;
 }
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 220px 220px;
+}
 #my_header {
-    width: auto;
     height: 171px;
     background-image: url(images/Шапка.jpg);
-}
-#element_id {
-    float: left;
-    margin-left: 220px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 #my_footer {
     width: auto;
@@ -30,14 +38,5 @@ th {
 }
 td {
     border: 1px solid grey;
-}
-table {
-    margin-left: 220px;
-    margin-right: 220px;
-}
-.content {
-    width: 960px;
-    margin-left: 220px;
-    margin-right: 220px;
 }
 
